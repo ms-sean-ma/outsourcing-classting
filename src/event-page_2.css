@@ -51,13 +51,18 @@ table {
 
 .nav-wrapper {
 	position: relative;
-	/* top: -0.21vw; */
 	width: 100%;
-	height: 46.88vw;
-	background-image: url("../png/header.png");
+	height: 42.88vw;
+	background-image: url("../png/page2-main_1.png");
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	/* background-size: cover; */
+	/* background-position: center; */
+}
+
+.nav-bg-ssam-img {
+	width: 44.74vw;
+	height: 39.06vw;
+	margin: -0.1vw 0 5.31vw 50vw
 }
 
 .main-header-img {
@@ -75,11 +80,10 @@ table {
 
 .nav-header-box {
 	position: absolute;
-	top: 13.70vw;
-	left: 12.97vw;
-	bottom: 16.56vw;
 	width: 30.10vw;
 	height: 12.19vw;
+	top: 29.54vw;
+	left: 19.15vw;
 }
 
 .nav-first-title {
@@ -93,13 +97,45 @@ table {
 }
 
 .nav-third-title {
-	width: 18.49vw;
+	position: relative;
+	width: 19.9vw;
 	height: 2.45vw;
-	border: #00C896;
-	background-color: #00C896;
-	font-size: 1.46vw;
-	color: #fff;
+	font-size: 1.56vw;
 }
+
+.border-line1 {
+	position: absolute;
+	top: -0.5vw;
+	left: -1.3vw;
+	width: 1.81vw;
+	height: 1.81vw;
+}
+
+.border-line2 {
+	position: absolute;
+	top: 0.63vw;
+	width: 1.81vw;
+	height: 1.81vw;
+}
+
+.nav-bg-text-img {
+	position: absolute;
+	top: 8.48vw;
+	left: 8.84vw;
+	bottom: 12.88vw;
+	width: 43.17vw;
+	height: 21.09vw;
+}
+
+.nav-bg-text2-img {
+	position: absolute;
+	top: 10.8vw;
+	right: 20.06vw;
+	width: 5.91vw;
+	height: 7.03vw;
+}
+
+/* event 1 */
 
 .event-title-first {
 	line-height: 2.92vw;
@@ -110,10 +146,24 @@ table {
 	justify-content: center;
 	align-items: center;
 	height: 20.83vw;
+	margin-bottom: 2.50vw;
 }
 
 .event-title-first-text {
+	font-size: 2.50vw;
+	margin-bottom: 0.92vw;
+}
+
+.event-title-second-text {
+	font-size: 2.50vw;
+	margin-bottom: 0.92vw;
+}
+
+.event-title-main-text-img {
+	width: 43.17vw;
+	height: 21.09vw;
 	font-size: 1.67vw;
+
 }
 
 .event-title-thid-text {
@@ -127,8 +177,7 @@ table {
 }
 
 .event-title-third-text {
-	font-size: 1.67vw;
-	font-weight: bold;
+	font-size: 2.50vw;
 }
 
 /* second */
@@ -138,38 +187,125 @@ table {
 	align-items: center;
 	width: 100%;
 	height: 44.27vw;
-	background-image: url("../png/ellipse2.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-color: #F7F9F2;
 }
 
 .event-title-second-first-text {
-	font-size: 1.88vw;
+	position: relative;
 	margin: 7.71vw 0 5.62vw 0;
+	font-size: 1.88vw;
+}
+
+.event-title-second-first-img {
+	position: absolute;
+	width: 1.81vw;
+	height: 1.81vw;
+	left: -2.5vw;
+	top: -0.83vw;
+
 }
 
 .event-title-second-box {
-	width: 32.81vw;
+	/* width: 32.81vw; */
 	height: 16.2vw;
-	background-color: #F5F5F5;
-	border: 0.42vw solid #fff;
 }
 
 .event-second-text-box {
+	display: flex;
+	justify-content: space-between;
+	width: 58.25vw;
 	margin-top: 3.02vw;
 	margin-left: 4.64vw;
 	font-size: 1.25vw;
-	line-height: 2.4vw;
+	height: 14.06vw;
+
+}
+
+.tv-box {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	font-size: 1.25vw;
+}
+
+.tv-img {
+	width: 9.58vw;
+	height: 9.58vw;
+}
+
+.tv-text {
+	margin-top: 1.61vw;
+}
+
+.bus-box {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	height: 14.06vw;
+	font-size: 1.25vw;
+}
+
+.bus-sub-wrapper {
+	margin-top: 0.15vw;
+	text-align: center;
+	margin-top: 1.61vw;
+
+}
+
+.bus-img {
+	width: 9.58vw;
+	height: 9.58vw;
+}
+
+.bus-text {
+	font-size: 1.25vw;
+	color: #231F20;
+}
+
+.youtube-box {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	font-size: 1.25vw;
+}
+
+.youtube-text {
+	font-size: 1.25vw;
+	color: #231F20;
+	margin-top: 1.61vw;
+}
+
+.youtube-img {
+	width: 9.58vw;
+	height: 9.58vw;
+}
+
+.instar-box {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.instar-img {
+	width: 9.58vw;
+	height: 9.58vw;
+}
+
+.instar-text {
+	margin-top: 1.61vw;
 }
 
 .event-title-footer-first-text {
 	font-size: 1.46vw;
-	font-weight: bold;
 }
 
 .event-title-footer-second-text {
 	font-size: 1.46vw;
+	font-weight: bold;
 }
 
 .event-title-second-footer {
@@ -260,24 +396,33 @@ table {
 
 .event-fourth-wrapper {
 	width: 100%;
-	height: 44.27vw;
+	height: 40.68vw;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	background-position: center;
-	background-image: url("../png/ellipse2.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #F7F9F2;
 }
 
+
 .event-fourth-header-title {
+	position: relative;
 	margin-bottom: 1.51vw;
 	font-size: 2.50vw;
 }
 
+.event-fourth-header-title-img {
+	position: absolute;
+	width: 1.81vw;
+	height: 1.81vw;
+	top: 1.71vw;
+	left: -1.15vw;
+	transform: rotate(270deg)
+}
+
 .event-fourth-sub-text-box {
 	line-height: 2.08vw;
+	margin-top: 1.76vw;
 	margin-bottom: 2.60vw;
 }
 
@@ -292,6 +437,8 @@ table {
 .event-fourth-item-box {
 	display: flex;
 	justify-content: center;
+	width: 46.46vw;
+	height: 27.32vw;
 	/* width: 100%; */
 }
 
@@ -301,16 +448,15 @@ table {
 	align-items: center;
 	width: 23.96vw;
 	height: 21.88vw;
-	background-color: #F5F5F5;
+	background-color: #ffff;
 	/* border-radius: 1.56vw; */
-	border: 0.42vw solid #fff;
-	margin-right: 1.04vw;
 }
 
 .event-fourth-box {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 25.27vw;
 	/* justify-content: center; */
 	/* width: 100%;
 	height: 100%; */
@@ -345,9 +491,11 @@ table {
 	align-items: center;
 	width: 23.96vw;
 	height: 21.88vw;
-	background-color: #F5F5F5;
-	/* border-radius: 1.56vw; */
-	border: 0.42vw solid #fff;
+	background-color: #fff;
+	background-image: url(../png/bg-12.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
@@ -356,6 +504,7 @@ table {
 	position: relative;
 	width: 10.73vw;
 	height: 12..76vw;
+	top: 0.8vw;
 }
 
 .hash-tag-text1 {
@@ -368,8 +517,9 @@ table {
 	width: 6.09vw;
 	height: 2.14vw;
 	background-color: #000;
-	/* border-radius: 1.56vw; */
+	border-radius: 1.56vw;
 	color: #fff;
+	font-size: 0.89vw;
 }
 
 .hash-tag-text2 {
