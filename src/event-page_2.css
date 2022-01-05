@@ -1,0 +1,500 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* first */
+
+.nav-wrapper {
+	position: relative;
+	/* top: -0.21vw; */
+	width: 100%;
+	height: 46.88vw;
+	background-image: url("../png/header.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-header-img {
+	height: 46.88vw;
+	margin: 0;
+	padding: 0;
+}
+
+
+.logo-image {
+	margin: 1.88vw 0 0 2.60vw;
+	width: 10.73vw;
+	height: 1.46vw;
+}
+
+.nav-header-box {
+	position: absolute;
+	top: 13.70vw;
+	left: 12.97vw;
+	bottom: 16.56vw;
+	width: 30.10vw;
+	height: 12.19vw;
+}
+
+.nav-first-title {
+	font-size: 1.88vw;
+	margin-bottom: 0.89vw;
+}
+
+.nav-second-title {
+	font-size: 3.75vw;
+	margin-bottom: 2.08vw;
+}
+
+.nav-third-title {
+	width: 18.49vw;
+	height: 2.45vw;
+	border: #00C896;
+	background-color: #00C896;
+	font-size: 1.46vw;
+	color: #fff;
+}
+
+.event-title-first {
+	line-height: 2.92vw;
+}
+
+.event-title-first-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20.83vw;
+}
+
+.event-title-first-text {
+	font-size: 1.67vw;
+}
+
+.event-title-thid-text {
+	font-size: 1.67vw;
+	font-weight: bold;
+}
+
+.event-first-sub-text {
+	font-weight: bold;
+	color: #00C896;
+}
+
+.event-title-third-text {
+	font-size: 1.67vw;
+	font-weight: bold;
+}
+
+/* second */
+.event-title-second-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 44.27vw;
+	background-image: url("../png/ellipse2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.event-title-second-first-text {
+	font-size: 1.88vw;
+	margin: 7.71vw 0 5.62vw 0;
+}
+
+.event-title-second-box {
+	width: 32.81vw;
+	height: 16.2vw;
+	background-color: #F5F5F5;
+	border: 0.42vw solid #fff;
+}
+
+.event-second-text-box {
+	margin-top: 3.02vw;
+	margin-left: 4.64vw;
+	font-size: 1.25vw;
+	line-height: 2.4vw;
+}
+
+.event-title-footer-first-text {
+	font-size: 1.46vw;
+	font-weight: bold;
+}
+
+.event-title-footer-second-text {
+	font-size: 1.46vw;
+}
+
+.event-title-second-footer {
+	width: 54.48vw;
+	height: 4.22vw;
+	margin-top: 3.13vw;
+	line-height: 2.5vw;
+	text-align: center;
+}
+
+/* third */
+
+.event-title-third-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 26.04vw;
+	margin-bottom: 4.38vw;
+
+}
+
+.event-third-header-text {
+	width: 100%;
+	height: 2.24vw;
+	margin-top: 3.55vw;
+	margin-bottom: 3.81vw;
+	font-size: 1.88vw;
+	color: #11A28E;
+	text-align: center;
+}
+
+.salary-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.salary-img-box {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+
+.salary-img {
+	width: 6.30vw;
+	height: 6.30vw;
+}
+
+.salary-text-box {
+	/* width: 14.48vw; */
+	width: 100%;
+	height: 3.27vw;
+	margin-top: 2.20vw;
+	text-align: center;
+}
+
+
+.salary-text {
+	font-size: 1.35vw;
+	font-weight: bold;
+}
+
+.salary-second-text {
+	font-size: 1.09vw;
+	color: #707070;
+}
+
+.plus-img {
+	width: 1.88vw;
+	height: 4.43vw;
+}
+
+.salary-img-moneybag {
+	width: 9.45vw;
+	height: 7.29vw;
+}
+
+.result-img {
+	width: 1.98vw;
+	height: 4.43vw;
+}
+
+
+
+
+/* fourth */
+
+.event-fourth-wrapper {
+	width: 100%;
+	height: 44.27vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-position: center;
+	background-image: url("../png/ellipse2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.event-fourth-header-title {
+	margin-bottom: 1.51vw;
+	font-size: 2.50vw;
+}
+
+.event-fourth-sub-text-box {
+	line-height: 2.08vw;
+	margin-bottom: 2.60vw;
+}
+
+.event-fourth-sub-title {
+	font-size: 1.46vw;
+}
+
+.event-fourth-third-title {
+	font-size: 1.04vw;
+}
+
+.event-fourth-item-box {
+	display: flex;
+	justify-content: center;
+	/* width: 100%; */
+}
+
+.event-fourth-thumbnail-first {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 23.96vw;
+	height: 21.88vw;
+	background-color: #F5F5F5;
+	/* border-radius: 1.56vw; */
+	border: 0.42vw solid #fff;
+	margin-right: 1.04vw;
+}
+
+.event-fourth-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	/* width: 100%;
+	height: 100%; */
+}
+
+.event-fourth-step {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5.73vw;
+	height: 2.08vw;
+	margin-top: 1.56vw;
+	/* border-radius: 1.56vw; */
+	background-color: #00C896;
+	font-size: 1.04vw;
+	color: #fff;
+}
+
+.event-fouth-step-text-box {
+	margin-top: 0.83vw;
+	margin-bottom: 0.83vw;
+	font-size: 1.25vw;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5vw;
+}
+
+.event-fourth-thumbnail-second {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 23.96vw;
+	height: 21.88vw;
+	background-color: #F5F5F5;
+	/* border-radius: 1.56vw; */
+	border: 0.42vw solid #fff;
+}
+
+
+
+.event-phone2-img {
+	position: relative;
+	width: 10.73vw;
+	height: 12..76vw;
+}
+
+.hash-tag-text1 {
+	position: absolute;
+	top: 11.56vw;
+	right: 3.75vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 6.09vw;
+	height: 2.14vw;
+	background-color: #000;
+	/* border-radius: 1.56vw; */
+	color: #fff;
+}
+
+.hash-tag-text2 {
+	position: absolute;
+	left: 2.24vw;
+	bottom: 1.82vw;
+	width: 6.09vw;
+	height: 2.14vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	color: #fff;
+	border-radius: 1.56vw;
+}
+
+
+/* fifth */
+
+.fifth-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	margin-top: 5.73vw;
+	margin-left: 28.44vw;
+	height: 20.83vw;
+}
+
+.fifth-title {
+	width: 9.38vw;
+	height: 2.60vw;
+	/* border-radius: 1.56vw; */
+	font-size: 1.45vw;
+	background-color: #00C896;
+	text-align: center;
+	line-height: 2.60vw;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+
+
+
+.fifth-first-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 31.72vw;
+	height: 2.60vw;
+}
+
+
+.fifth-second-wrapper {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	width: 42.34vw;
+	height: 8.96vw;
+	margin-top: 2.60vw;
+}
+
+.fifth-secod-box {
+	display: flex;
+	/* width: 42.34vw; */
+	margin-right: 2.08vw;
+}
+
+.fifth-title-sub-title {
+	width: 9.38vw;
+	height: 2.60vw;
+	/* border-radius: 1.56vw; */
+	font-size: 1.45vw;
+	background-color: #00C896;
+	text-align: center;
+	line-height: 2.60vw;
+	color: #fff;
+	font-weight: bold;
+	/* margin-right: 2.08vw; */
+}
+
+.fifth-title-box {
+	width: 100%;
+	font-size: 1.46vw;
+}
+
+.fifth-title-text {
+	width: 20.26vw;
+	height: 1.72vw;
+	font-size: 1.46vw;
+}
+
+.fifth-title-sub-text-first {
+	margin-bottom: 0.52vw;
+	color: #000;
+	/* font-size: 1.25vw; */
+}
+
+.fifth-title-sub-text-second {
+	color: #000;
+	font-size: 1.25vw;
+}
+
+
+.sixth-wrapper {
+	position: relative;
+	height: 100vw;
+}
+
+.sixth-ellipse-first {
+	width: 100%;
+	height: 44.27vw;
+}
+
+.sixth-ellipse-body {
+	position: absolute;
+	width: 100%;
+	top: 5.41vw;
+	height: 85.26vw;
+}
+
+.sixth-ellipse-second {
+	width: 100%;
+	height: 44.27vw;
+	margin-top: 11.46vw;
+
+}
